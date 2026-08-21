@@ -8,12 +8,8 @@ function Tugas() {
   }
   return (
     <div>
-      <h1>Tugas Praktik useRef dan useState</h1>
-
       <input type="text" ref={inputRef} placeholder="Masukkan nama" />
-
       <button onClick={tampilkanNama}>Tampilkan Nama</button>
-
       <h2>Nama: {nama}</h2>
     </div>
   );
