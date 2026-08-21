@@ -1,5 +1,11 @@
 import Hero from "./components/Hero";
 import ProfilPengguna from "./ProfilPengguna"
+import { useState } from "react";
+import React from "react";
+import { students } from "./data";
+import './App.css'
+import { useRef } from "react";
+import Tugas from "./Tugas";
  function App() {
   return (
     <>
